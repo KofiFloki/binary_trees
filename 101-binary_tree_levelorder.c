@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height - this is a function that measures the height of a binary tree
- * @tree: the tree to measure
+ * binary_tree_height - a function that measures the height of a binary tree
+ * @tree: the tree to  measure
  * Return: the height of the tree or 0.
  */
 size_t binary_tree_height(const binary_tree_t *tree)
@@ -21,7 +21,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (1 + right_height);
 }
 /**
- * current_level - a function that prints all nodes a level
+ * current_level - is a function that prints all nodes a level
  * @tree: the root node of the tree
  * @level: the level to print nodes from
  * @func: the function that prints the node
